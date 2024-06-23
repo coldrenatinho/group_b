@@ -1,19 +1,49 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* https://colorhunt.co/palette/219c90fff455ffc700ee4e4e
+Paleta de cores  */
+.color {
+  color: #219c90;
+  color: #fff455;
+  color: #ffc700;
+  color: #ee4e4e;
 }
 
-.main-frame{
-    text-align: center;
-    position: relative;
-    display: block;
-    top: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: LinBiolinum;
+}
+body {
+  background-color: #219c90;
 }
 
-.main-frame img{
-    width: 60%;
-    border-radius: 25px;
-    padding: 5px;
+.main-container {
+  width: 90%;
+  padding: 45px;
+  margin: 0 auto;
+  background-color: #fff455;
+}
+
+.main-container div {
+  background-color: #ee4e4e;
+  border-radius: 35px;
+  padding: 45px;
+  margin: 35px;
+}
+.main-frame {
+}
+
+.main-frame img {
+  width: 70%;
+  height: auto;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 0 auto;
+  box-shadow: 10px 3px 10px #000;
+}
+
+.introduction-container img {
+  margin: 35px auto;
+  border-radius: 20px;
+  display: block;
 }
