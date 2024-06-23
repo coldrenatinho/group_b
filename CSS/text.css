@@ -1,3 +1,7 @@
 p {
   text-align: justify;
 }
+
+.introduction-container p {
+  margin-bottom: 65px;
+}

@@ -2,6 +2,9 @@
   font-family: "LinBiolinum";
   src: url(../FONT/linux-biolinum/LinBiolinum_R.otf);
 }
+* {
+  color: #fff;
+}
 
 h1,
 h2,
@@ -12,6 +15,7 @@ h4 {
 
 p {
   padding: 5px;
+  font-size: 18px;
 }
 
 h2 {

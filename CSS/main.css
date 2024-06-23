@@ -17,6 +17,16 @@ body {
   background-color: #219c90;
 }
 
+blockquote {
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+  font-style: italic;
+  box-shadow: 0 0 10px #00000050;
+  border-radius: 5px;
+  margin-bottom: 65px;
+}
+
 .main-container {
   width: 90%;
   padding: 45px;
@@ -30,20 +40,37 @@ body {
   padding: 45px;
   margin: 35px;
 }
-.main-frame {
-}
-
-.main-frame img {
-  width: 70%;
-  height: auto;
-  border-radius: 25px;
-  padding: 5px;
-  margin: 0 auto;
-  box-shadow: 10px 3px 10px #000;
-}
 
 .introduction-container img {
+  width: 90%; /* Ajusta a largura da imagem para se adequar ao contêiner pai */
+  height: auto; /* Mantém a proporção da imagem */
   margin: 35px auto;
   border-radius: 20px;
   display: block;
+  box-shadow: 0 0 10px #000;
+}
+
+.introduction-container iframe {
+  width: 90%;
+  height: 500px;
+  margin: 35px auto;
+  display: block;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #000;
+}
+.history-list-car-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-list-car-image li {
+  background-position: center;
+  display: inline-block;
+}
+
+.history-list-car-image img {
+  width: 250px;
+  border-radius: 35px;
+  padding: 5px;
 }
