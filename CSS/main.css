@@ -74,3 +74,48 @@ blockquote {
   border-radius: 35px;
   padding: 5px;
 }
+
+.best-cars-container {
+  display: flex;
+  justify-content: flex-start; /* Ajusta os itens para o início do container */
+  align-items: flex-start; /* Alinha os itens ao topo */
+  flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se não houver espaço suficiente */
+  gap: 20px; /* Cria espaço entre os itens */
+}
+
+.best-cars-container ul {
+  display: flex; /* Muda de inline-block para flex para permitir flexibilidade nos itens */
+  width: 100%; /* Garante que a lista ocupe toda a largura do contêiner */
+  flex-wrap: wrap; /* Permite que os itens da lista se movam para a próxima linha se necessário */
+  gap: 20px; /* Mantém um espaço consistente entre os itens */
+}
+
+.best-cars-container li {
+  background-color: #219c90;
+  padding: 15px;
+  display: flex;
+  flex-direction: column; /* Organiza o conteúdo do cartão em coluna */
+  align-items: center; /* Centraliza o conteúdo do cartão */
+  justify-content: space-between; /* Distribui o espaço dentro do cartão */
+  flex: 1 1 auto; /* Define o tamanho do cartão */
+  width: calc(33.333% - 20px); /* Define a largura para 3 itens por linha, ajustando pelo gap */
+  margin-bottom: 20px; /* Espaço abaixo de cada cartão */
+  border-radius: 10px; /* Borda arredondada para o visual de cartão */
+  min-width: 300px; /* Define a largura mínima para os itens da lista */
+  min-height: 200px;
+  box-shadow: 8px 5px 10px #00000050; /* Adiciona sombra ao cartão */
+}
+
+.best-cars-container img {
+  width: 100%; /* Faz a imagem ocupar toda a largura do cartão */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 10px; /* Borda arredondada para a imagem */
+  padding: 0; /* Remove o padding da imagem */
+}
+
+.best-cars-container h4{
+  color: #fff455;
+  font-size: 2em;
+  margin: 10px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
